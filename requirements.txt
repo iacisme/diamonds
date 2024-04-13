@@ -1,0 +1,81 @@
+# Interactive tools libraries
+ipywidgets
+
+# Graphing libraries
+plotly
+matplotlib
+seaborn
+
+# Analyzing missing values
+missingno
+
+# Mapping
+folium
+ipyleaflet
+geemap
+leafmap
+
+# Project Jupyter related libraries
+jupyterlab
+jupyterlab-spellchecker
+
+# Dash and Dash Components. 
+dash
+dash-ag-grid
+dash_daq
+dash-bootstrap-components
+dash-mantine-components
+dash-iconify
+
+# UI Exploration
+networkx
+
+# Pub / Sub clients
+metpx-sr3[all]
+amqp
+paho-mqtt
+
+# Geo libraries
+geopy
+geopandas
+pyogrio
+geojson
+mapclassify
+
+# Science related libraries
+scipy
+statsmodels
+pandas
+polars
+
+# ChatGPT related
+openai
+pandasai
+pandasai[google-sheet]
+pandasai[excel]
+pandasai[numpy]
+pandasai[plotly]
+pandasai[statsmodels]
+pandasai[scikit-learn]
+
+# Library to open excel files
+openpyxl
+
+# Machine Learning and Computer-Vision
+scikit-learn
+scikit-image
+opencv-python
+
+
+# Web scraping related libraries
+html5lib
+lxml
+selenium
+beautifulsoup4
+
+# SQL libraries
+ibm-db
+SQLAlchemy
+
+# Python utilities
+wget
