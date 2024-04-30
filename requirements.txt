@@ -5,6 +5,7 @@ ipywidgets
 plotly
 matplotlib
 seaborn
+bqplot
 
 # Analyzing missing values
 missingno
