@@ -32,7 +32,7 @@ dash-iconify
 networkx
 
 # Pub / Sub clients
-metpx-sr3[all]
+metpx-sr3[amqp,mqtt,vip,ftppoll,filetype]
 amqp
 paho-mqtt
 
