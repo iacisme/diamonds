@@ -20,9 +20,6 @@ def freedmanDiaconisRule(dfSeries):
     # Calculate the number of bins
     numBins = int((dfSeries.max() - dfSeries.min()) / binWidth)
 
-    print("The bin width is:", binWidth)
-    print("The number of bins is:", numBins)
-
     return binWidth, numBins
 
 def sturgesRule(dfSeries):
@@ -44,9 +41,6 @@ def sturgesRule(dfSeries):
 
     # Passing None to help in parsing results
     binWidth = None
-
-    print("The bin width is:", binWidth)
-    print("The number of bins is:", numBins)
 
     return binWidth, numBins
 
@@ -73,9 +67,6 @@ def scottsRule(dfSeries):
     # Calculate the number of bins
     numBins = int(np.ceil(dataRange / binWidth))
 
-    print("The bin width is:", binWidth)
-    print("The number of bins is:", numBins)
-
     return binWidth, numBins
 
 def manualMethod(dfSeries):
@@ -97,8 +88,5 @@ def manualMethod(dfSeries):
 
     # Passing None to help in parsing results
     binWidth = None
-
-    print("The bin width is:", binWidth)
-    print("The number of bins is:", numBins)
 
     return binWidth, numBins
