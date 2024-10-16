@@ -1,3 +1,4 @@
+
 def freedmanDiaconisRule(dfSeries):
     """
         Function that returns a bin width and recommended number of bins based on the Freedman-Diaconis Rule. 
